@@ -138,8 +138,8 @@ The `.env` file is already included in `.gitignore` to prevent accidental commit
 
 ## Contributors for Submission to Spurhacks 2025
 - [@JordanKing22](https://github.com/JordanKing22) – Project Lead & Backend  
-- [@meghanavusirika](https://github.com/meghanavusirika) – UX/UI Designer  
-- [@manahilbashir](https://github.com/manahilbashir) – Frontend Developer and Designer  
+- [@meghanavusirika](https://github.com/meghanavusirika) – Frontend Developer and Designer
+- [@manahilbashir](https://github.com/manahilbashir) – UX/UI Designer
 - [@PritNotPrinter](https://github.com/PritNotPrinter) - Pitch Lead and OCR Integration
 ## License
 
