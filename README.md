@@ -5,7 +5,7 @@ A smart kitchen pantry management app that helps reduce food waste through AI-po
 # 🌐 Live Demo
 
 Check out the deployed application:
-🔗 https://sustainiq.onrender.com
+🔗 https://shelflife-4dr7.onrender.com
 
 # Preview
 
