@@ -631,6 +631,16 @@ ${prompt}`,
   }
 });
 
+// Serve static files from the frontend build
+app.use(express.static(path.join(__dirname, '../dist')));
+
+// Fallback to index.html for SPA routes (after API and static routes)
+app.get('*', (req, res, next) => {
+  // Only handle non-API requests
+  if (req.path.startsWith('/api')) return next();
+  res.sendFile(path.join(__dirname, '../dist', 'index.html'));
+});
+
 // Start server
 async function startServer() {
   await connectToMongo();
