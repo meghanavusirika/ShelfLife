@@ -12,7 +12,7 @@ A smart kitchen pantry management app that helps reduce food waste through AI-po
 ## Features
 
 - 🥬 **Smart Pantry Management**: Track food items with expiry dates
-- 📸 **Receipt Scanning**: AI-powered OCR with Veryfi + Gemini integration
+- 📸 **Receipt Scanning**: AI-powered OCR with Veryfi + Ollama (Llama2) integration
 - 🤖 **Recipe Suggestions**: Personalized recipes based on expiring items
 - ❄️ **Freeze Functionality**: Extend shelf life of appropriate items
 - 📊 **Analytics Dashboard**: Track food waste and savings
@@ -22,7 +22,7 @@ A smart kitchen pantry management app that helps reduce food waste through AI-po
 
 - **Frontend**: React + TypeScript, Tailwind CSS, shadcn/ui
 - **Backend**: Node.js + Express, MongoDB
-- **AI Integration**: Google Gemini API for recipes and food standardization
+- **AI Integration**: Ollama (Llama2) for recipes and food standardization
 - **OCR**: Veryfi API (primary) with Tesseract fallback
 
 ## Setup Instructions
