@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Bananas",
+    "category": "Fruits",
+    "expiryDate": "2025-07-25",
+    "quantity": 1,
+    "unit": "bunch",
+    "status": "fresh",
+    "userId": "f3cf51285e15fd40d32dfdab",
+    "createdAt": "2025-07-20T04:10:37.355Z",
+    "updatedAt": "2025-07-20T04:10:37.355Z",
+    "_id": "42d3bb48a02327bff6c9dd14"
+  },
+  {
+    "name": "Potatoes",
+    "category": "Vegetables",
+    "expiryDate": "2025-08-03",
+    "quantity": 1,
+    "unit": "item",
+    "status": "fresh",
+    "userId": "f3cf51285e15fd40d32dfdab",
+    "createdAt": "2025-07-20T04:10:37.358Z",
+    "updatedAt": "2025-07-20T04:10:37.358Z",
+    "_id": "6223e4baec02fa1a709567ef"
+  },
+  {
+    "name": "Butter",
+    "category": "Dairy",
+    "expiryDate": "2025-08-19",
+    "quantity": 1,
+    "unit": "item",
+    "status": "fresh",
+    "userId": "f3cf51285e15fd40d32dfdab",
+    "createdAt": "2025-07-20T04:12:43.736Z",
+    "updatedAt": "2025-07-20T04:12:43.736Z",
+    "_id": "c0cd8d2d73a8104f1c0161a2"
+  },
+  {
+    "name": "Chicken",
+    "category": "Meat",
+    "expiryDate": "2025-07-23",
+    "quantity": 1,
+    "unit": "item",
+    "status": "expiring",
+    "userId": "f3cf51285e15fd40d32dfdab",
+    "createdAt": "2025-07-20T04:12:43.739Z",
+    "updatedAt": "2025-07-20T05:50:06.118Z",
+    "_id": "1898f278eb5ee98aca62b69a",
+    "frozen": false,
+    "originalExpiryDate": "2025-07-23"
+  },
+  {
+    "name": "Onions",
+    "category": "Vegetables",
+    "expiryDate": "2025-08-19",
+    "quantity": 1,
+    "unit": "item",
+    "status": "fresh",
+    "userId": "f3cf51285e15fd40d32dfdab",
+    "createdAt": "2025-07-20T04:12:43.741Z",
+    "updatedAt": "2025-07-20T04:12:43.741Z",
+    "_id": "49b4339c63f28df57d2eac1b"
+  },
+  {
+    "name": "Beans",
+    "category": "Pantry",
+    "expiryDate": "2026-07-20",
+    "quantity": 1,
+    "unit": "item",
+    "status": "fresh",
+    "userId": "f3cf51285e15fd40d32dfdab",
+    "createdAt": "2025-07-20T04:12:43.742Z",
+    "updatedAt": "2025-07-20T04:12:43.742Z",
+    "_id": "4dbc50198df5c2f41f531d56"
+  },
+  {
+    "name": "Fish",
+    "category": "Meat & Seafood",
+    "expiryDate": "2025-07-21",
+    "quantity": 1,
+    "unit": "piece(s)",
+    "status": "critical",
+    "userId": "f3cf51285e15fd40d32dfdab",
+    "createdAt": "2025-07-21T05:11:14.356Z",
+    "updatedAt": "2025-07-21T05:11:14.356Z",
+    "_id": "8c825beb7a48eabd7c2a6d29"
+  }
+]
