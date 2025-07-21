@@ -2,6 +2,11 @@
 
 A smart kitchen pantry management app that helps reduce food waste through AI-powered recipe suggestions and receipt scanning.
 
+# 🌐 Live Demo
+
+Check out the deployed application:
+🔗 https://sustainiq.onrender.com
+
 # Preview
 
 ![Recipe_Page](https://github.com/user-attachments/assets/02e0edd9-184e-49dd-bf56-e57b45f56180)
@@ -25,7 +30,8 @@ A smart kitchen pantry management app that helps reduce food waste through AI-po
 - **AI Integration**: Ollama (Llama2) for recipes and food standardization
 - **OCR**: Veryfi API (primary) with Tesseract fallback
 
-## Setup Instructions
+## ⚙️ Local Setup Instructions
+The steps below are for developers who want to run SustainIQ locally for development or contribution purposes.
 
 ### 1. Environment Variables
 
