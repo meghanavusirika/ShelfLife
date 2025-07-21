@@ -12,7 +12,7 @@ A smart kitchen pantry management app that helps reduce food waste through AI-po
 ## Features
 
 - 🥬 **Smart Pantry Management**: Track food items with expiry dates
-- 📸 **Receipt Scanning**: AI-powered OCR with Veryfi + Gemini integration
+- 📸 **Receipt Scanning**: AI-powered OCR with Veryfi + Ollama (Llama2) integration
 - 🤖 **Recipe Suggestions**: Personalized recipes based on expiring items
 - ❄️ **Freeze Functionality**: Extend shelf life of appropriate items
 - 📊 **Analytics Dashboard**: Track food waste and savings
@@ -22,7 +22,7 @@ A smart kitchen pantry management app that helps reduce food waste through AI-po
 
 - **Frontend**: React + TypeScript, Tailwind CSS, shadcn/ui
 - **Backend**: Node.js + Express, MongoDB
-- **AI Integration**: Google Gemini API for recipes and food standardization
+- **AI Integration**: Ollama (Llama2) for recipes and food standardization
 - **OCR**: Veryfi API (primary) with Tesseract fallback
 
 ## Setup Instructions
@@ -45,9 +45,6 @@ MONGODB_URI=mongodb+srv://your_username:your_password@cluster.mongodb.net/?retry
 VERYFI_CLIENT_ID=your_veryfi_client_id
 VERYFI_API_KEY=your_veryfi_api_key
 
-# Gemini AI API Key (for recipes and food name standardization)
-VITE_GEMINI_API_KEY=your_gemini_api_key
-
 # Server Configuration
 PORT=3001
 VERYFI_PROXY_PORT=3002
@@ -64,11 +61,6 @@ VERYFI_PROXY_PORT=3002
 1. Sign up at [Veryfi](https://app.veryfi.com/auth/register/?ref=header)
 2. Get your Client ID and API Key from dashboard
 3. Add to `VERYFI_CLIENT_ID` and `VERYFI_API_KEY`
-
-#### Google Gemini API (AI Features)
-1. Go to [Google AI Studio](https://aistudio.google.com/)
-2. Create an API key
-3. Add to `VITE_GEMINI_API_KEY`
 
 #### Google OAuth (Authentication)
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
@@ -134,7 +126,7 @@ The `.env` file is already included in `.gitignore` to prevent accidental commit
 - **Main Backend**: Express server on port 3001 (handles auth, pantry, recipes)
 - **Veryfi Proxy**: Express server on port 3002 (handles receipt OCR)
 - **Database**: MongoDB for user data, pantry items, and recipes
-- **AI Services**: Gemini API for recipe generation and food name standardization
+- **AI Services**: Ollama (Llama2) for recipe generation and food name standardization
 
 ## Contributing
 
